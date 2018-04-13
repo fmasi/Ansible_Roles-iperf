@@ -22,9 +22,9 @@
     createhome: yes
     home: "/app"
 
-- name: Install iperf3
+- name: Install iperf2
   yum:
-    name: iperf3
+    name: iperf
     state: latest
 
 # - name: Copy source into container
